@@ -1,0 +1,1233 @@
+[2017-09-28 08:13:35,977] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 108 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 08:13:36,487] WARN Client session timed out, have not heard from server in 45603076ms for sessionid 0x15ec353a574000a (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:38,143] INFO [GroupCoordinator 0]: Stabilized group test1 generation 109 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 08:13:37,216] INFO Expiring session 0x15ec353a574000a, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 08:13:39,261] INFO Client session timed out, have not heard from server in 45603076ms for sessionid 0x15ec353a574000a, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:39,693] INFO Processed session termination for sessionid: 0x15ec353a574000a (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 08:13:39,484] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 109 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 08:13:39,833] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ec353a574000a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 08:13:40,049] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 08:13:39,927] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:53608 which had sessionid 0x15ec353a574000a (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 08:13:40,877] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:40,979] INFO Accepted socket connection from /127.0.0.1:53733 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 08:13:40,981] INFO Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,070] INFO Client attempting to renew session 0x15ec353a574000a at /127.0.0.1:53733 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 08:13:41,097] WARN Unable to reconnect to ZooKeeper service, session 0x15ec353a574000a has expired (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,097] INFO Invalid session 0x15ec353a574000a for client /127.0.0.1:53733, probably expired (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 08:13:41,149] INFO Closed socket connection for client /127.0.0.1:53733 which had sessionid 0x15ec353a574000a (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 08:13:41,148] INFO Unable to reconnect to ZooKeeper service, session 0x15ec353a574000a has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,097] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 08:13:41,171] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@4313f5bc (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 08:13:41,376] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,475] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:53736 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 08:13:41,479] INFO Socket connection established to 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,567] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:53736 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 08:13:41,377] INFO EventThread shut down for session: 0x15ec353a574000a (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,674] INFO Session establishment complete on server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, sessionid = 0x15ec353a574000b, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 08:13:41,674] INFO Established session 0x15ec353a574000b with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:53736 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 08:13:41,760] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 08:13:41,814] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-09-28 08:13:41,798] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-09-28 08:13:42,074] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-09-28 08:13:42,274] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-09-28 08:13:42,646] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:create cxid:0x4d zxid:0x44e txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NodeExists for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 08:13:42,767] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:create cxid:0x4f zxid:0x44f txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 08:13:43,023] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-09-28 08:13:43,080] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(LNAR-PC0611K6.corp.capgemini.com,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-09-28 08:13:43,249] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-09-28 08:13:43,314] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-09-28 08:13:44,761] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:delete cxid:0x18a zxid:0x451 txntype:-1 reqpath:n/a Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 08:13:47,281] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions __consumer_offsets-22,db1-0,__consumer_offsets-30,clusterdb-topic2-0,cluster-3-0,__consumer_offsets-8,__consumer_offsets-21,clusterdb-topic1-0,__consumer_offsets-4,__consumer_offsets-27,__consumer_offsets-7,__consumer_offsets-9,__consumer_offsets-46,cluster1-0,cluster-2-0,clusterdb2-0,__consumer_offsets-25,__consumer_offsets-35,demo2-0,__consumer_offsets-41,__consumer_offsets-33,clusterdb-topic5-0,__consumer_offsets-23,__consumer_offsets-49,test-topic3-0,__consumer_offsets-47,__consumer_offsets-16,__consumer_offsets-28,demo5-0,__consumer_offsets-31,clusterdb-topic6-0,__consumer_offsets-36,__consumer_offsets-42,cluster-1-0,__consumer_offsets-3,__consumer_offsets-18,clusterdb1-0,cluster3-0,__consumer_offsets-37,demo-0,clusterdb-topic7-0,__consumer_offsets-15,__consumer_offsets-24,db2-0,db-0,clusterdb-topic4-0,demo3-0,test-topic2-0,__consumer_offsets-38,clusterdb3-0,__consumer_offsets-17,__consumer_offsets-48,__consumer_offsets-19,__consumer_offsets-11,cluster2-0,__consumer_offsets-13,__consumer_offsets-2,__consumer_offsets-43,__consumer_offsets-6,__consumer_offsets-14,db3-0,test-topic-0,__consumer_offsets-20,__consumer_offsets-0,__consumer_offsets-44,__consumer_offsets-39,clusterdb-topic3-0,__consumer_offsets-12,__consumer_offsets-45,__consumer_offsets-1,__consumer_offsets-5,__consumer_offsets-26,test-topic4-0,__consumer_offsets-29,__consumer_offsets-34,__consumer_offsets-10,__consumer_offsets-32,__consumer_offsets-40 (kafka.server.ReplicaFetcherManager)
+[2017-09-28 08:13:47,458] INFO Partition [__consumer_offsets,0] on broker 0: __consumer_offsets-0 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,472] INFO Partition [__consumer_offsets,29] on broker 0: __consumer_offsets-29 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,491] INFO Partition [__consumer_offsets,48] on broker 0: __consumer_offsets-48 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,500] INFO Partition [cluster-2,0] on broker 0: cluster-2-0 starts at Leader Epoch 3 from offset 1. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,516] INFO Partition [__consumer_offsets,10] on broker 0: __consumer_offsets-10 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,528] INFO Partition [__consumer_offsets,45] on broker 0: __consumer_offsets-45 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,539] INFO Partition [cluster2,0] on broker 0: cluster2-0 starts at Leader Epoch 3 from offset 1. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,548] INFO Partition [__consumer_offsets,26] on broker 0: __consumer_offsets-26 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,557] INFO Partition [demo3,0] on broker 0: demo3-0 starts at Leader Epoch 1 from offset 2. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,574] INFO Partition [__consumer_offsets,7] on broker 0: __consumer_offsets-7 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,589] INFO Partition [__consumer_offsets,42] on broker 0: __consumer_offsets-42 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,601] INFO Partition [__consumer_offsets,4] on broker 0: __consumer_offsets-4 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,613] INFO Partition [db,0] on broker 0: db-0 starts at Leader Epoch 3 from offset 6. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,632] INFO Partition [__consumer_offsets,23] on broker 0: __consumer_offsets-23 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,645] INFO Partition [clusterdb-topic2,0] on broker 0: clusterdb-topic2-0 starts at Leader Epoch 6 from offset 0. Previous Leader Epoch was: 5 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,657] INFO Partition [clusterdb1,0] on broker 0: clusterdb1-0 starts at Leader Epoch 4 from offset 1. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,671] INFO Partition [__consumer_offsets,1] on broker 0: __consumer_offsets-1 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,684] INFO Partition [__consumer_offsets,20] on broker 0: __consumer_offsets-20 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,718] INFO Partition [__consumer_offsets,39] on broker 0: __consumer_offsets-39 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,766] INFO Partition [clusterdb-topic5,0] on broker 0: clusterdb-topic5-0 starts at Leader Epoch 4 from offset 0. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:47,814] INFO Partition [__consumer_offsets,17] on broker 0: __consumer_offsets-17 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,021] INFO Partition [__consumer_offsets,36] on broker 0: __consumer_offsets-36 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,157] INFO Partition [test-topic,0] on broker 0: test-topic-0 starts at Leader Epoch 3 from offset 30. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,173] INFO Partition [demo2,0] on broker 0: demo2-0 starts at Leader Epoch 1 from offset 4. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,184] INFO Partition [__consumer_offsets,14] on broker 0: __consumer_offsets-14 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,193] INFO Partition [test-topic3,0] on broker 0: test-topic3-0 starts at Leader Epoch 1 from offset 11. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,204] INFO Partition [demo5,0] on broker 0: demo5-0 starts at Leader Epoch 1 from offset 4. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,211] INFO Partition [db1,0] on broker 0: db1-0 starts at Leader Epoch 3 from offset 2. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,218] INFO Partition [__consumer_offsets,33] on broker 0: __consumer_offsets-33 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,235] INFO Partition [__consumer_offsets,49] on broker 0: __consumer_offsets-49 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,250] INFO Partition [cluster-1,0] on broker 0: cluster-1-0 starts at Leader Epoch 3 from offset 1. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,258] INFO Partition [__consumer_offsets,11] on broker 0: __consumer_offsets-11 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,275] INFO Partition [__consumer_offsets,30] on broker 0: __consumer_offsets-30 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,290] INFO Partition [__consumer_offsets,46] on broker 0: __consumer_offsets-46 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,297] INFO Partition [__consumer_offsets,27] on broker 0: __consumer_offsets-27 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,305] INFO Partition [clusterdb-topic7,0] on broker 0: clusterdb-topic7-0 starts at Leader Epoch 4 from offset 0. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,312] INFO Partition [cluster1,0] on broker 0: cluster1-0 starts at Leader Epoch 3 from offset 1. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,318] INFO Partition [__consumer_offsets,8] on broker 0: __consumer_offsets-8 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,327] INFO Partition [clusterdb3,0] on broker 0: clusterdb3-0 starts at Leader Epoch 4 from offset 1. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,335] INFO Partition [__consumer_offsets,24] on broker 0: __consumer_offsets-24 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,348] INFO Partition [__consumer_offsets,43] on broker 0: __consumer_offsets-43 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,354] INFO Partition [__consumer_offsets,5] on broker 0: __consumer_offsets-5 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,367] INFO Partition [clusterdb-topic1,0] on broker 0: clusterdb-topic1-0 starts at Leader Epoch 6 from offset 0. Previous Leader Epoch was: 5 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,374] INFO Partition [clusterdb-topic4,0] on broker 0: clusterdb-topic4-0 starts at Leader Epoch 4 from offset 0. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,382] INFO Partition [demo,0] on broker 0: demo-0 starts at Leader Epoch 1 from offset 1. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,389] INFO Partition [__consumer_offsets,21] on broker 0: __consumer_offsets-21 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,397] INFO Partition [__consumer_offsets,2] on broker 0: __consumer_offsets-2 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,405] INFO Partition [__consumer_offsets,40] on broker 0: __consumer_offsets-40 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,412] INFO Partition [__consumer_offsets,37] on broker 0: __consumer_offsets-37 starts at Leader Epoch 3 from offset 253491. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,423] INFO Partition [cluster-3,0] on broker 0: cluster-3-0 starts at Leader Epoch 3 from offset 1. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,430] INFO Partition [__consumer_offsets,18] on broker 0: __consumer_offsets-18 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,436] INFO Partition [__consumer_offsets,15] on broker 0: __consumer_offsets-15 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,446] INFO Partition [__consumer_offsets,34] on broker 0: __consumer_offsets-34 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,453] INFO Partition [test-topic2,0] on broker 0: test-topic2-0 starts at Leader Epoch 3 from offset 9. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,460] INFO Partition [__consumer_offsets,12] on broker 0: __consumer_offsets-12 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,469] INFO Partition [__consumer_offsets,31] on broker 0: __consumer_offsets-31 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,476] INFO Partition [clusterdb-topic3,0] on broker 0: clusterdb-topic3-0 starts at Leader Epoch 6 from offset 0. Previous Leader Epoch was: 5 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,487] INFO Partition [db3,0] on broker 0: db3-0 starts at Leader Epoch 3 from offset 4. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,492] INFO Partition [__consumer_offsets,9] on broker 0: __consumer_offsets-9 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,500] INFO Partition [__consumer_offsets,47] on broker 0: __consumer_offsets-47 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,511] INFO Partition [__consumer_offsets,19] on broker 0: __consumer_offsets-19 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,517] INFO Partition [__consumer_offsets,28] on broker 0: __consumer_offsets-28 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,531] INFO Partition [__consumer_offsets,38] on broker 0: __consumer_offsets-38 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,538] INFO Partition [clusterdb2,0] on broker 0: clusterdb2-0 starts at Leader Epoch 4 from offset 1. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,545] INFO Partition [clusterdb-topic6,0] on broker 0: clusterdb-topic6-0 starts at Leader Epoch 4 from offset 0. Previous Leader Epoch was: 3 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,551] INFO Partition [__consumer_offsets,35] on broker 0: __consumer_offsets-35 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,557] INFO Partition [cluster3,0] on broker 0: cluster3-0 starts at Leader Epoch 3 from offset 1. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,570] INFO Partition [__consumer_offsets,44] on broker 0: __consumer_offsets-44 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,577] INFO Partition [__consumer_offsets,6] on broker 0: __consumer_offsets-6 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,586] INFO Partition [__consumer_offsets,25] on broker 0: __consumer_offsets-25 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,593] INFO Partition [__consumer_offsets,16] on broker 0: __consumer_offsets-16 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,600] INFO Partition [__consumer_offsets,22] on broker 0: __consumer_offsets-22 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,608] INFO Partition [__consumer_offsets,41] on broker 0: __consumer_offsets-41 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,614] INFO Partition [__consumer_offsets,32] on broker 0: __consumer_offsets-32 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,625] INFO Partition [db2,0] on broker 0: db2-0 starts at Leader Epoch 3 from offset 4. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,631] INFO Partition [test-topic4,0] on broker 0: test-topic4-0 starts at Leader Epoch 1 from offset 6. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,638] INFO Partition [__consumer_offsets,3] on broker 0: __consumer_offsets-3 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:48,646] INFO Partition [__consumer_offsets,13] on broker 0: __consumer_offsets-13 starts at Leader Epoch 3 from offset 0. Previous Leader Epoch was: 2 (kafka.cluster.Partition)
+[2017-09-28 08:13:50,040] INFO Updated PartitionLeaderEpoch. New: {epoch:3, offset:253491}, Current: {epoch:2, offset22979} for Partition: __consumer_offsets-37. Cache now contains 3 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2017-09-28 08:23:22,895] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,907] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,920] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,935] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,939] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,946] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,952] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,957] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,963] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,968] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,973] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,976] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,979] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,989] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,993] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,996] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:22,999] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,010] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,014] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,019] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,027] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,035] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,042] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,049] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,055] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,061] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,066] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,072] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,077] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,084] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,090] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,096] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,101] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,106] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,112] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,117] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,121] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,126] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,133] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,139] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,144] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,152] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,157] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,162] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,169] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,176] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,181] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,186] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,192] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,198] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,203] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,207] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,213] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,220] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,225] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,231] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,238] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,243] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,248] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,254] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,259] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,264] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,269] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,275] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,279] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,288] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,294] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,299] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,305] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,316] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,321] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,328] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,335] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,341] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,346] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,353] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,359] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,364] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,369] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,375] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,379] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,385] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,391] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,396] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,400] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:23:23,406] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:33:11,851] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:43:11,865] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 08:53:11,869] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 09:03:11,872] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 09:13:11,869] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 09:15:29,923] INFO Accepted socket connection from /127.0.0.1:54327 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 09:15:29,954] INFO Client attempting to establish new session at /127.0.0.1:54327 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:15:29,973] INFO Established session 0x15ec353a574000c with negotiated timeout 30000 for client /127.0.0.1:54327 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:15:30,209] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000c type:setData cxid:0x4 zxid:0x4a1 txntype:-1 reqpath:n/a Error Path:/config/topics/kafkalogger Error:KeeperErrorCode = NoNode for /config/topics/kafkalogger (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:15:30,228] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000c type:create cxid:0x6 zxid:0x4a2 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:15:30,263] INFO Processed session termination for sessionid: 0x15ec353a574000c (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:15:30,275] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ec353a574000c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 09:15:30,292] INFO Closed socket connection for client /127.0.0.1:54327 which had sessionid 0x15ec353a574000c (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 09:15:30,313] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:create cxid:0x24d zxid:0x4a6 txntype:-1 reqpath:n/a Error Path:/brokers/topics/kafkalogger/partitions/0 Error:KeeperErrorCode = NoNode for /brokers/topics/kafkalogger/partitions/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:15:30,325] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:create cxid:0x24e zxid:0x4a7 txntype:-1 reqpath:n/a Error Path:/brokers/topics/kafkalogger/partitions Error:KeeperErrorCode = NoNode for /brokers/topics/kafkalogger/partitions (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:15:30,363] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions kafkalogger-0 (kafka.server.ReplicaFetcherManager)
+[2017-09-28 09:15:30,388] INFO Loading producer state from offset 0 for partition kafkalogger-0 with message format version 2 (kafka.log.Log)
+[2017-09-28 09:15:30,393] INFO Completed load of log kafkalogger-0 with 1 log segments, log start offset 0 and log end offset 0 in 15 ms (kafka.log.Log)
+[2017-09-28 09:15:30,397] INFO Created log for partition [kafkalogger,0] in C:\tmp\kafka-logs2 with properties {compression.type -> producer, message.format.version -> 0.11.0-IV2, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2017-09-28 09:15:30,416] INFO Partition [kafkalogger,0] on broker 0: No checkpointed highwatermark is found for partition kafkalogger-0 (kafka.cluster.Partition)
+[2017-09-28 09:15:30,419] INFO Replica loaded for partition kafkalogger-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2017-09-28 09:15:30,423] INFO Partition [kafkalogger,0] on broker 0: kafkalogger-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2017-09-28 09:17:59,505] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59936 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 09:17:59,510] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:59936 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,519] INFO Established session 0x15ec353a574000d with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:59936 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,537] INFO Accepted socket connection from /127.0.0.1:59939 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 09:17:59,541] INFO Client attempting to establish new session at /127.0.0.1:59939 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,551] INFO Established session 0x15ec353a574000e with negotiated timeout 30000 for client /127.0.0.1:59939 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,567] INFO Accepted socket connection from /127.0.0.1:59942 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 09:17:59,571] INFO Client attempting to establish new session at /127.0.0.1:59942 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,580] INFO Established session 0x15ec353a574000f with negotiated timeout 30000 for client /127.0.0.1:59942 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,699] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59945 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 09:17:59,702] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:59945 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,710] INFO Established session 0x15ec353a5740010 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:59945 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 09:17:59,821] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740010 type:create cxid:0x2 zxid:0x4af txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:18:00,231] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740010 type:create cxid:0x19 zxid:0x4b3 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-58525/owners/kafkalogger Error:KeeperErrorCode = NoNode for /consumers/console-consumer-58525/owners/kafkalogger (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:18:00,253] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740010 type:create cxid:0x1a zxid:0x4b4 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-58525/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-58525/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:18:59,745] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740010 type:setData cxid:0x24 zxid:0x4b8 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-58525/offsets/kafkalogger/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-58525/offsets/kafkalogger/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:18:59,765] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740010 type:create cxid:0x25 zxid:0x4b9 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-58525/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-58525/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 09:19:44,937] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset-1} for Partition: kafkalogger-0. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2017-09-28 09:23:11,871] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 09:26:37,422] INFO [GroupCoordinator 0]: Member consumer-1-49bcd613-6b56-4ad1-ba26-c3781bb6564d in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:26:37,435] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 109 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:26:37,450] INFO [GroupCoordinator 0]: Group test1 with generation 110 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:26:47,529] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 110 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:26:47,534] INFO [GroupCoordinator 0]: Stabilized group test1 generation 111 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:26:47,541] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 111 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:33:11,875] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 09:43:11,877] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 09:43:32,607] INFO [GroupCoordinator 0]: Member consumer-1-1fd4dd8b-5d55-48c2-8f93-af99d5596c76 in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:43:32,616] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 111 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:43:32,622] INFO [GroupCoordinator 0]: Group test1 with generation 112 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:43:35,345] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 112 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:43:35,348] INFO [GroupCoordinator 0]: Stabilized group test1 generation 113 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:43:35,356] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 113 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:49:16,118] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 113 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:49:17,393] INFO [GroupCoordinator 0]: Member consumer-1-30045bb9-20ac-4841-a230-c19053cbc366 in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:49:17,400] INFO [GroupCoordinator 0]: Stabilized group test1 generation 114 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:49:17,411] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 114 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:51:15,958] INFO [GroupCoordinator 0]: Member consumer-1-fd6a911d-175f-4804-837f-5fc2585d5acf in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:51:15,962] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 114 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:51:15,966] INFO [GroupCoordinator 0]: Group test1 with generation 115 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 09:53:11,877] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 10:03:11,883] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 10:08:27,986] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 115 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:08:27,993] INFO [GroupCoordinator 0]: Stabilized group test1 generation 116 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:08:28,000] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 116 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:08:37,345] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 116 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:08:40,013] INFO [GroupCoordinator 0]: Stabilized group test1 generation 117 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:08:40,020] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 117 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:09:13,039] INFO [GroupCoordinator 0]: Member consumer-1-f3b03961-4fa2-4306-92ca-d36af82fd2ee in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:09:13,051] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 117 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:09:16,038] INFO [GroupCoordinator 0]: Stabilized group test1 generation 118 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:09:16,051] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 118 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:13:11,887] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 10:13:42,497] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 118 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:13:43,083] INFO [GroupCoordinator 0]: Member consumer-1-7937f71e-f36e-4b7d-ae9e-086cee0e29a4 in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:13:43,096] INFO [GroupCoordinator 0]: Stabilized group test1 generation 119 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:13:43,115] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 119 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:23:11,885] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 10:26:32,385] INFO [GroupCoordinator 0]: Member consumer-1-61244219-ff79-4706-8cb7-418edc3a2aa2 in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:26:32,391] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 119 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:26:32,398] INFO [GroupCoordinator 0]: Group test1 with generation 120 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:26:32,975] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 120 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:26:32,979] INFO [GroupCoordinator 0]: Stabilized group test1 generation 121 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:26:32,988] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 121 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:33:11,887] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 10:43:11,885] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 10:46:48,108] INFO [GroupCoordinator 0]: Member consumer-1-781d8584-be91-4161-85da-6abfb8226c32 in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:46:48,124] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 121 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:46:48,136] INFO [GroupCoordinator 0]: Group test1 with generation 122 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:46:55,512] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 122 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:46:55,519] INFO [GroupCoordinator 0]: Stabilized group test1 generation 123 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:46:55,527] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 123 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:05,798] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 123 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:07,539] INFO [GroupCoordinator 0]: Stabilized group test1 generation 124 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:07,663] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 124 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:37,669] INFO [GroupCoordinator 0]: Member consumer-1-3f04677d-ab43-4cf0-b6d7-ea4995793a9e in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:37,686] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 124 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:37,705] INFO [GroupCoordinator 0]: Stabilized group test1 generation 125 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:47:37,713] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 125 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:48:16,236] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 125 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:48:16,243] INFO [GroupCoordinator 0]: Group test1 with generation 126 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:51:15,040] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 126 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:51:15,045] INFO [GroupCoordinator 0]: Stabilized group test1 generation 127 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:51:15,054] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 127 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:52:13,402] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 127 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:52:15,070] INFO [GroupCoordinator 0]: Member consumer-1-a6398170-05ee-4f4f-af15-e0573198f37c in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:52:15,085] INFO [GroupCoordinator 0]: Stabilized group test1 generation 128 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:52:15,106] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 128 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 10:53:11,883] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 11:03:11,885] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 11:05:24,767] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 128 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 11:05:40,167] INFO [GroupCoordinator 0]: Member consumer-1-d819d9df-09a0-4ae5-97ab-1df9d5243fab in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 11:05:40,180] INFO [GroupCoordinator 0]: Stabilized group test1 generation 129 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 11:05:40,198] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 129 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 11:13:11,888] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 11:23:11,893] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 11:33:11,896] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 11:43:11,899] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 11:53:11,908] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 4 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 12:03:11,908] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 12:13:11,912] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 12:23:11,901] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 12:33:11,903] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 12:43:11,906] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 12:53:11,907] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 13:03:11,911] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 13:13:11,914] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 13:23:11,918] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 13:33:11,912] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 13:43:11,915] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 13:53:11,920] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 14:03:11,923] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 14:10:22,480] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59977 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:10:22,503] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:59977 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:10:22,519] INFO Established session 0x15ec353a5740011 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:59977 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:10:22,752] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740011 type:setData cxid:0x4 zxid:0x4cb txntype:-1 reqpath:n/a Error Path:/config/topics/kafkalogger2 Error:KeeperErrorCode = NoNode for /config/topics/kafkalogger2 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:10:22,768] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740011 type:create cxid:0x6 zxid:0x4cc txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:10:22,804] INFO Processed session termination for sessionid: 0x15ec353a5740011 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:10:22,824] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ec353a5740011, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 14:10:22,846] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59977 which had sessionid 0x15ec353a5740011 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:10:22,861] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:create cxid:0x258 zxid:0x4d0 txntype:-1 reqpath:n/a Error Path:/brokers/topics/kafkalogger2/partitions/0 Error:KeeperErrorCode = NoNode for /brokers/topics/kafkalogger2/partitions/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:10:22,876] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574000b type:create cxid:0x259 zxid:0x4d1 txntype:-1 reqpath:n/a Error Path:/brokers/topics/kafkalogger2/partitions Error:KeeperErrorCode = NoNode for /brokers/topics/kafkalogger2/partitions (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:10:22,913] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions kafkalogger2-0 (kafka.server.ReplicaFetcherManager)
+[2017-09-28 14:10:22,934] INFO Loading producer state from offset 0 for partition kafkalogger2-0 with message format version 2 (kafka.log.Log)
+[2017-09-28 14:10:22,941] INFO Completed load of log kafkalogger2-0 with 1 log segments, log start offset 0 and log end offset 0 in 15 ms (kafka.log.Log)
+[2017-09-28 14:10:22,946] INFO Created log for partition [kafkalogger2,0] in C:\tmp\kafka-logs2 with properties {compression.type -> producer, message.format.version -> 0.11.0-IV2, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2017-09-28 14:10:22,965] INFO Partition [kafkalogger2,0] on broker 0: No checkpointed highwatermark is found for partition kafkalogger2-0 (kafka.cluster.Partition)
+[2017-09-28 14:10:22,969] INFO Replica loaded for partition kafkalogger2-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2017-09-28 14:10:22,977] INFO Partition [kafkalogger2,0] on broker 0: kafkalogger2-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2017-09-28 14:11:29,892] INFO Accepted socket connection from /127.0.0.1:59984 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:11:29,895] INFO Client attempting to establish new session at /127.0.0.1:59984 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:29,903] INFO Established session 0x15ec353a5740012 with negotiated timeout 30000 for client /127.0.0.1:59984 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:29,916] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59987 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:11:29,922] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:59987 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:29,929] INFO Established session 0x15ec353a5740013 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:59987 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:29,943] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:59990 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:11:29,947] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:59990 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:29,954] INFO Established session 0x15ec353a5740014 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:59990 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:30,073] INFO Accepted socket connection from /127.0.0.1:59993 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:11:30,076] INFO Client attempting to establish new session at /127.0.0.1:59993 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:30,083] INFO Established session 0x15ec353a5740015 with negotiated timeout 6000 for client /127.0.0.1:59993 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:11:30,188] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740015 type:create cxid:0x2 zxid:0x4d9 txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:11:30,553] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740015 type:create cxid:0x19 zxid:0x4dd txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-37019/owners/kafkalogger2 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-37019/owners/kafkalogger2 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:11:30,566] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740015 type:create cxid:0x1a zxid:0x4de txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-37019/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-37019/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:12:30,120] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740015 type:setData cxid:0x24 zxid:0x4e2 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-37019/offsets/kafkalogger2/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-37019/offsets/kafkalogger2/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:12:30,149] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740015 type:create cxid:0x25 zxid:0x4e3 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-37019/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-37019/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:13:11,927] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 14:16:10,068] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 129 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 14:16:10,072] INFO [GroupCoordinator 0]: Group test1 with generation 130 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 14:21:13,867] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 130 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 14:21:13,873] INFO [GroupCoordinator 0]: Stabilized group test1 generation 131 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 14:21:13,885] INFO [GroupCoordinator 0]: Assignment received from leader for group test1 for generation 131 (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 14:23:11,931] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 14:24:28,426] INFO Processed session termination for sessionid: 0x15ec353a5740010 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:28,435] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59945 which had sessionid 0x15ec353a5740010 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,453] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:60053 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:24:28,456] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:60053 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:28,462] INFO Established session 0x15ec353a5740016 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:60053 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:28,506] INFO Processed session termination for sessionid: 0x15ec353a5740016 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:28,514] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:60053 which had sessionid 0x15ec353a5740016 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,855] WARN Exception causing close of session 0x15ec353a574000d due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,871] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59936 which had sessionid 0x15ec353a574000d (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,878] WARN Exception causing close of session 0x15ec353a574000f due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,886] INFO Closed socket connection for client /127.0.0.1:59942 which had sessionid 0x15ec353a574000f (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,893] WARN Exception causing close of session 0x15ec353a574000e due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:28,899] INFO Closed socket connection for client /127.0.0.1:59939 which had sessionid 0x15ec353a574000e (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 14:24:34,806] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:60057 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:24:34,809] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:60057 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,817] INFO Established session 0x15ec353a5740017 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:60057 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,837] INFO Accepted socket connection from /127.0.0.1:60060 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:24:34,841] INFO Client attempting to establish new session at /127.0.0.1:60060 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,849] INFO Established session 0x15ec353a5740018 with negotiated timeout 30000 for client /127.0.0.1:60060 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,861] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:60063 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:24:34,865] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:60063 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,878] INFO Established session 0x15ec353a5740019 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:60063 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,980] INFO Accepted socket connection from /127.0.0.1:60066 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 14:24:34,983] INFO Client attempting to establish new session at /127.0.0.1:60066 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:34,992] INFO Established session 0x15ec353a574001a with negotiated timeout 6000 for client /127.0.0.1:60066 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:35,094] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574001a type:create cxid:0x2 zxid:0x4f8 txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:35,477] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574001a type:create cxid:0x19 zxid:0x4fc txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-57238/owners/kafkalogger Error:KeeperErrorCode = NoNode for /consumers/console-consumer-57238/owners/kafkalogger (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:35,493] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574001a type:create cxid:0x1a zxid:0x4fd txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-57238/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-57238/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:51,000] INFO Expiring session 0x15ec353a574000e, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:51,012] INFO Expiring session 0x15ec353a574000d, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:51,021] INFO Expiring session 0x15ec353a574000f, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 14:24:51,035] INFO Processed session termination for sessionid: 0x15ec353a574000e (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:51,044] INFO Processed session termination for sessionid: 0x15ec353a574000d (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:24:51,050] INFO Processed session termination for sessionid: 0x15ec353a574000f (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:25:35,027] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574001a type:setData cxid:0x24 zxid:0x504 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-57238/offsets/kafkalogger/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-57238/offsets/kafkalogger/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:25:35,059] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574001a type:create cxid:0x25 zxid:0x505 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-57238/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-57238/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 14:33:11,957] INFO [Group Metadata Manager on Broker 0]: Removed 2 expired offsets in 26 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 14:43:11,927] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 14:53:11,933] INFO [Group Metadata Manager on Broker 0]: Removed 1 expired offsets in 4 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 15:03:11,934] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 15:13:11,939] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 15:18:41,177] INFO [GroupCoordinator 0]: Member consumer-1-61217bc9-c8ea-442c-a557-c3a38f759898 in group test1 has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 15:18:41,194] INFO [GroupCoordinator 0]: Preparing to rebalance group test1 with old generation 131 (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 15:18:41,206] INFO [GroupCoordinator 0]: Group test1 with generation 132 is now empty (__consumer_offsets-37) (kafka.coordinator.group.GroupCoordinator)
+[2017-09-28 15:18:56,523] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61931 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:18:56,545] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:61931 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,562] INFO Established session 0x15ec353a574001b with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:61931 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,584] INFO Accepted socket connection from /127.0.0.1:61934 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:18:56,590] INFO Client attempting to establish new session at /127.0.0.1:61934 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,601] INFO Established session 0x15ec353a574001c with negotiated timeout 30000 for client /127.0.0.1:61934 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,616] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:61937 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:18:56,619] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:61937 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,627] INFO Established session 0x15ec353a574001d with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:61937 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,740] INFO Accepted socket connection from /127.0.0.1:61940 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:18:56,743] INFO Client attempting to establish new session at /127.0.0.1:61940 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,751] INFO Established session 0x15ec353a574001e with negotiated timeout 6000 for client /127.0.0.1:61940 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:18:56,867] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574001e type:create cxid:0x2 zxid:0x50e txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:19:01,828] INFO Processed session termination for sessionid: 0x15ec353a574001e (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:19:01,837] INFO Closed socket connection for client /127.0.0.1:61940 which had sessionid 0x15ec353a574001e (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:19:40,469] WARN Exception causing close of session 0x15ec353a574001b due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:19:40,481] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61931 which had sessionid 0x15ec353a574001b (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:19:40,491] WARN Exception causing close of session 0x15ec353a574001d due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:19:40,523] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:61937 which had sessionid 0x15ec353a574001d (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:19:40,529] WARN Exception causing close of session 0x15ec353a574001c due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:19:40,540] INFO Closed socket connection for client /127.0.0.1:61934 which had sessionid 0x15ec353a574001c (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:20:09,001] INFO Expiring session 0x15ec353a574001b, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:09,012] INFO Expiring session 0x15ec353a574001d, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:09,023] INFO Expiring session 0x15ec353a574001c, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:09,029] INFO Processed session termination for sessionid: 0x15ec353a574001b (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:20:09,035] INFO Processed session termination for sessionid: 0x15ec353a574001d (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:20:09,045] INFO Processed session termination for sessionid: 0x15ec353a574001c (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:20:22,539] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62195 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:20:22,542] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62195 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,550] INFO Established session 0x15ec353a574001f with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:62195 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,567] INFO Accepted socket connection from /127.0.0.1:62198 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:20:22,571] INFO Client attempting to establish new session at /127.0.0.1:62198 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,579] INFO Established session 0x15ec353a5740020 with negotiated timeout 30000 for client /127.0.0.1:62198 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,592] INFO Accepted socket connection from /127.0.0.1:62201 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:20:22,598] INFO Client attempting to establish new session at /127.0.0.1:62201 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,604] INFO Established session 0x15ec353a5740021 with negotiated timeout 30000 for client /127.0.0.1:62201 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,717] INFO Accepted socket connection from /127.0.0.1:62204 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:20:22,721] INFO Client attempting to establish new session at /127.0.0.1:62204 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,732] INFO Established session 0x15ec353a5740022 with negotiated timeout 6000 for client /127.0.0.1:62204 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:20:22,840] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740022 type:create cxid:0x2 zxid:0x51a txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:20:23,274] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740022 type:create cxid:0x19 zxid:0x51e txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-3418/owners/kafkalogger Error:KeeperErrorCode = NoNode for /consumers/console-consumer-3418/owners/kafkalogger (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:20:23,298] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740022 type:create cxid:0x1a zxid:0x51f txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-3418/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-3418/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:21:22,764] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740022 type:setData cxid:0x24 zxid:0x523 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-3418/offsets/kafkalogger/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-3418/offsets/kafkalogger/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:21:22,779] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740022 type:create cxid:0x25 zxid:0x524 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-3418/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-3418/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:23:11,944] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 15:24:57,454] INFO Processed session termination for sessionid: 0x15ec353a5740022 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:24:57,467] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62680 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:24:57,474] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62680 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:24:57,477] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ec353a5740022, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 15:24:57,482] INFO Established session 0x15ec353a5740023 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:62680 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:24:57,494] INFO Closed socket connection for client /127.0.0.1:62204 which had sessionid 0x15ec353a5740022 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,538] INFO Processed session termination for sessionid: 0x15ec353a5740023 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:24:57,547] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62680 which had sessionid 0x15ec353a5740023 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,882] WARN Exception causing close of session 0x15ec353a574001f due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,895] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62195 which had sessionid 0x15ec353a574001f (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,902] WARN Exception causing close of session 0x15ec353a5740020 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,909] INFO Closed socket connection for client /127.0.0.1:62198 which had sessionid 0x15ec353a5740020 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,917] WARN Exception causing close of session 0x15ec353a5740021 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:24:57,923] INFO Closed socket connection for client /127.0.0.1:62201 which had sessionid 0x15ec353a5740021 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:08,203] INFO Accepted socket connection from /127.0.0.1:62684 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:25:08,208] INFO Client attempting to establish new session at /127.0.0.1:62684 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:08,216] INFO Established session 0x15ec353a5740024 with negotiated timeout 30000 for client /127.0.0.1:62684 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:08,340] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62688 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:25:08,343] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62688 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:08,352] INFO Established session 0x15ec353a5740025 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:62688 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:08,451] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740025 type:create cxid:0x2 zxid:0x536 txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:08,810] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740025 type:create cxid:0x19 zxid:0x53a txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-60870/owners/kafkalogger Error:KeeperErrorCode = NoNode for /consumers/console-consumer-60870/owners/kafkalogger (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:08,823] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740025 type:create cxid:0x1a zxid:0x53b txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-60870/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-60870/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:24,000] INFO Expiring session 0x15ec353a5740021, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:24,012] INFO Expiring session 0x15ec353a5740020, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:24,021] INFO Expiring session 0x15ec353a574001f, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:24,032] INFO Processed session termination for sessionid: 0x15ec353a5740021 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:24,042] INFO Processed session termination for sessionid: 0x15ec353a5740020 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:24,052] INFO Processed session termination for sessionid: 0x15ec353a574001f (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:24,438] INFO Processed session termination for sessionid: 0x15ec353a574001a (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:24,450] INFO Closed socket connection for client /127.0.0.1:60066 which had sessionid 0x15ec353a574001a (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,457] INFO Accepted socket connection from /127.0.0.1:62694 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:25:24,461] INFO Client attempting to establish new session at /127.0.0.1:62694 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:24,469] INFO Established session 0x15ec353a5740026 with negotiated timeout 30000 for client /127.0.0.1:62694 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:24,511] INFO Processed session termination for sessionid: 0x15ec353a5740026 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:24,519] INFO Closed socket connection for client /127.0.0.1:62694 which had sessionid 0x15ec353a5740026 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,858] WARN Exception causing close of session 0x15ec353a5740017 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,867] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:60057 which had sessionid 0x15ec353a5740017 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,875] WARN Exception causing close of session 0x15ec353a5740018 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,881] INFO Closed socket connection for client /127.0.0.1:60060 which had sessionid 0x15ec353a5740018 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,889] WARN Exception causing close of session 0x15ec353a5740019 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:24,896] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:60063 which had sessionid 0x15ec353a5740019 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:25:39,347] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62698 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:25:39,350] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62698 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:39,359] INFO Established session 0x15ec353a5740027 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:62698 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:39,483] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62701 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:25:39,488] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62701 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:39,496] INFO Established session 0x15ec353a5740028 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:62701 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:39,602] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740028 type:create cxid:0x2 zxid:0x54e txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:39,994] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740028 type:create cxid:0x19 zxid:0x552 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-17347/owners/kafkalogger2 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-17347/owners/kafkalogger2 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:40,017] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740028 type:create cxid:0x1a zxid:0x553 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-17347/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-17347/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:48,000] INFO Expiring session 0x15ec353a5740019, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:48,011] INFO Expiring session 0x15ec353a5740017, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:48,020] INFO Expiring session 0x15ec353a5740018, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:25:48,030] INFO Processed session termination for sessionid: 0x15ec353a5740019 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:48,040] INFO Processed session termination for sessionid: 0x15ec353a5740017 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:25:48,050] INFO Processed session termination for sessionid: 0x15ec353a5740018 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:26:08,379] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740025 type:setData cxid:0x24 zxid:0x55a txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-60870/offsets/kafkalogger/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-60870/offsets/kafkalogger/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:26:08,393] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740025 type:create cxid:0x25 zxid:0x55b txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-60870/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-60870/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:26:39,523] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740028 type:setData cxid:0x24 zxid:0x55f txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-17347/offsets/kafkalogger2/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-17347/offsets/kafkalogger2/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:26:39,534] INFO Got user-level KeeperException when processing sessionid:0x15ec353a5740028 type:create cxid:0x25 zxid:0x560 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-17347/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-17347/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:26:59,753] WARN Exception causing close of session 0x15ec353a5740027 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:26:59,759] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62698 which had sessionid 0x15ec353a5740027 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:26:59,765] WARN Exception causing close of session 0x15ec353a5740028 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:26:59,775] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62701 which had sessionid 0x15ec353a5740028 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:27:06,000] INFO Expiring session 0x15ec353a5740028, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:27:06,010] INFO Processed session termination for sessionid: 0x15ec353a5740028 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:27:30,000] INFO Expiring session 0x15ec353a5740027, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:27:30,010] INFO Processed session termination for sessionid: 0x15ec353a5740027 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:19,166] INFO Processed session termination for sessionid: 0x15ec353a5740015 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:19,175] INFO Closed socket connection for client /127.0.0.1:59993 which had sessionid 0x15ec353a5740015 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,183] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62718 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:29:19,187] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62718 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:19,195] INFO Established session 0x15ec353a5740029 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:62718 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:19,237] INFO Processed session termination for sessionid: 0x15ec353a5740029 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:19,244] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:62718 which had sessionid 0x15ec353a5740029 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,581] WARN Exception causing close of session 0x15ec353a5740014 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,591] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59990 which had sessionid 0x15ec353a5740014 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,601] WARN Exception causing close of session 0x15ec353a5740012 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,609] INFO Closed socket connection for client /127.0.0.1:59984 which had sessionid 0x15ec353a5740012 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,617] WARN Exception causing close of session 0x15ec353a5740013 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:19,624] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:59987 which had sessionid 0x15ec353a5740013 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 15:29:33,434] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62722 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:29:33,438] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62722 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:33,445] INFO Established session 0x15ec353a574002a with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:62722 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:33,561] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:62725 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 15:29:33,566] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:62725 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:33,573] INFO Established session 0x15ec353a574002b with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:62725 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:33,674] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574002b type:create cxid:0x2 zxid:0x574 txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:34,089] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574002b type:create cxid:0x19 zxid:0x578 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-26081/owners/kafkalogger2 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-26081/owners/kafkalogger2 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:34,107] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574002b type:create cxid:0x1a zxid:0x579 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-26081/owners Error:KeeperErrorCode = NoNode for /consumers/console-consumer-26081/owners (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:42,000] INFO Expiring session 0x15ec353a5740014, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:42,011] INFO Expiring session 0x15ec353a5740012, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:42,020] INFO Expiring session 0x15ec353a5740013, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 15:29:42,026] INFO Processed session termination for sessionid: 0x15ec353a5740014 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:42,032] INFO Processed session termination for sessionid: 0x15ec353a5740012 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:29:42,041] INFO Processed session termination for sessionid: 0x15ec353a5740013 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:30:33,600] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574002b type:setData cxid:0x24 zxid:0x580 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-26081/offsets/kafkalogger2/0 Error:KeeperErrorCode = NoNode for /consumers/console-consumer-26081/offsets/kafkalogger2/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:30:33,614] INFO Got user-level KeeperException when processing sessionid:0x15ec353a574002b type:create cxid:0x25 zxid:0x581 txntype:-1 reqpath:n/a Error Path:/consumers/console-consumer-26081/offsets Error:KeeperErrorCode = NoNode for /consumers/console-consumer-26081/offsets (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 15:33:11,946] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 15:35:34,936] INFO Updated PartitionLeaderEpoch. New: {epoch:0, offset:0}, Current: {epoch:-1, offset-1} for Partition: kafkalogger2-0. Cache now contains 0 entries. (kafka.server.epoch.LeaderEpochFileCache)
+[2017-09-28 15:43:11,950] INFO [Group Metadata Manager on Broker 0]: Removed 1 expired offsets in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 15:53:11,952] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 16:03:11,956] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 16:13:11,959] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-09-28 16:19:02,078] WARN Session 0x15ec353a574000b for server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:02,270] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 16:19:03,010] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:04,031] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:06,110] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:07,127] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:07,694] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:08,703] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:10,419] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:10,668] INFO [Kafka Server 0], shutting down (kafka.server.KafkaServer)
+[2017-09-28 16:19:10,676] INFO [Kafka Server 0], Starting controlled shutdown (kafka.server.KafkaServer)
+[2017-09-28 16:19:11,434] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:11,588] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 16:19:12,168] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:13,184] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:15,149] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:16,163] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:16,747] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:17,760] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:18,981] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:19,995] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:21,101] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:22,115] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:23,977] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:24,992] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:19:25,377] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:19:26,385] WARN Session 0x15ec353a574000b for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:20:15,159] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.11.0-IV2
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs2
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.11.0-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2017-09-28 16:20:15,360] INFO starting (kafka.server.KafkaServer)
+[2017-09-28 16:20:15,366] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2017-09-28 16:20:15,384] INFO Starting ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2017-09-28 16:20:15,392] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,396] INFO Client environment:host.name=LNAR-PC0611K6.corp.capgemini.com (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,399] INFO Client environment:java.version=1.8.0_131 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,403] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,407] INFO Client environment:java.home=C:\Program Files\Java\jdk1.8.0_131\jre (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,414] INFO Client environment:java.class.path=C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\aopalliance-repackaged-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\argparse4j-0.7.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\commons-lang3-3.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-api-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-file-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-json-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-runtime-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-transforms-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\guava-20.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-api-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-locator-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-utils-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-annotations-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-core-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-databind-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-jaxrs-base-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-jaxrs-json-provider-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-module-jaxb-annotations-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javassist-3.21.0-GA.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.annotation-api-1.2.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.inject-1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.inject-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.servlet-api-3.1.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.ws.rs-api-2.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-client-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-common-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-container-servlet-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-container-servlet-core-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-guava-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-media-jaxb-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-server-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-continuation-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-http-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-io-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-security-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-server-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-servlet-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-servlets-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-util-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jopt-simple-5.0.3.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-clients-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-log4j-appender-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-streams-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-streams-examples-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-tools-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-javadoc.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-javadoc.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-scaladoc.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-scaladoc.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-sources.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-sources.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test-sources.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test-sources.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\log4j-1.2.17.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\lz4-1.3.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\maven-artifact-3.5.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\metrics-core-2.2.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\osgi-resource-locator-1.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\plexus-utils-3.0.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\reflections-0.9.11.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\rocksdbjni-5.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\scala-library-2.12.2.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\scala-parser-combinators_2.12-1.0.4.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\slf4j-api-1.7.25.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\slf4j-log4j12-1.7.25.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\snappy-java-1.1.2.6.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\validation-api-1.1.0.Final.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\zkclient-0.10.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,562] INFO Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Users\rbliton\AppData\Local\GitHubDesktop\bin;. (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,572] INFO Client environment:java.io.tmpdir=C:\Users\rbliton\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,577] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,581] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,585] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,588] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,591] INFO Client environment:user.name=rbliton (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,595] INFO Client environment:user.home=C:\Users\rbliton (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,598] INFO Client environment:user.dir=C:\workspace\kafka\kafka_2.12-0.11.0.1\bin\windows (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,606] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@4313f5bc (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:15,633] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 16:20:15,635] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:16,645] WARN Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:20:16,777] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:17,786] WARN Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:20:18,906] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:19,920] WARN Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:20:20,062] INFO Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:21,076] WARN Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[2017-09-28 16:20:21,634] INFO Terminate ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2017-09-28 16:20:22,194] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:23,254] INFO shutting down (kafka.server.KafkaServer)
+[2017-09-28 16:20:23,263] FATAL Fatal error during KafkaServer shutdown. (kafka.server.KafkaServer)
+java.lang.IllegalStateException: Kafka server is still starting up, cannot shut down!
+	at kafka.server.KafkaServer.shutdown(KafkaServer.scala:579)
+	at kafka.server.KafkaServerStartable.shutdown(KafkaServerStartable.scala:48)
+	at kafka.Kafka$$anon$1.run(Kafka.scala:62)
+[2017-09-28 16:20:23,288] FATAL Halting Kafka. (kafka.server.KafkaServerStartable)
+[2017-09-28 16:20:32,477] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2017-09-28 16:20:32,484] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2017-09-28 16:20:32,486] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2017-09-28 16:20:32,489] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2017-09-28 16:20:32,491] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2017-09-28 16:20:32,513] INFO Reading configuration from: ..\..\config\zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2017-09-28 16:20:32,517] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2017-09-28 16:20:32,531] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,534] INFO Server environment:host.name=LNAR-PC0611K6.corp.capgemini.com (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,538] INFO Server environment:java.version=1.8.0_131 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,541] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,545] INFO Server environment:java.home=C:\Program Files\Java\jdk1.8.0_131\jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,553] INFO Server environment:java.class.path=C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\aopalliance-repackaged-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\argparse4j-0.7.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\commons-lang3-3.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-api-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-file-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-json-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-runtime-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-transforms-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\guava-20.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-api-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-locator-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-utils-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-annotations-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-core-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-databind-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-jaxrs-base-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-jaxrs-json-provider-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-module-jaxb-annotations-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javassist-3.21.0-GA.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.annotation-api-1.2.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.inject-1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.inject-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.servlet-api-3.1.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.ws.rs-api-2.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-client-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-common-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-container-servlet-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-container-servlet-core-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-guava-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-media-jaxb-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-server-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-continuation-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-http-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-io-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-security-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-server-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-servlet-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-servlets-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-util-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jopt-simple-5.0.3.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-clients-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-log4j-appender-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-streams-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-streams-examples-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-tools-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-javadoc.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-javadoc.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-scaladoc.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-scaladoc.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-sources.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-sources.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test-sources.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test-sources.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\log4j-1.2.17.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\lz4-1.3.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\maven-artifact-3.5.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\metrics-core-2.2.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\osgi-resource-locator-1.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\plexus-utils-3.0.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\reflections-0.9.11.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\rocksdbjni-5.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\scala-library-2.12.2.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\scala-parser-combinators_2.12-1.0.4.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\slf4j-api-1.7.25.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\slf4j-log4j12-1.7.25.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\snappy-java-1.1.2.6.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\validation-api-1.1.0.Final.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\zkclient-0.10.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,667] INFO Server environment:java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Users\rbliton\AppData\Local\GitHubDesktop\bin;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,675] INFO Server environment:java.io.tmpdir=C:\Users\rbliton\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,683] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,685] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,688] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,690] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,693] INFO Server environment:user.name=rbliton (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,696] INFO Server environment:user.home=C:\Users\rbliton (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,699] INFO Server environment:user.dir=C:\workspace\kafka\kafka_2.12-0.11.0.1\bin\windows (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,712] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,714] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,716] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,737] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:32,766] INFO Accepted socket connection from /127.0.0.1:52050 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:32,775] WARN Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:20:32,781] INFO Closed socket connection for client /127.0.0.1:52050 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:20:32,872] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52052 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:32,876] WARN Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:20:32,881] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52052 (no session established for client) (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:20:32,927] INFO Accepted socket connection from /127.0.0.1:52058 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:32,932] INFO Client attempting to renew session 0x15ec353a574002b at /127.0.0.1:52058 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:32,938] INFO Established session 0x15ec353a574002b with negotiated timeout 6000 for client /127.0.0.1:52058 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:33,084] INFO Accepted socket connection from /127.0.0.1:52060 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:33,094] INFO Client attempting to renew session 0x15ec353a574002a at /127.0.0.1:52060 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:33,105] INFO Established session 0x15ec353a574002a with negotiated timeout 30000 for client /127.0.0.1:52060 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:33,125] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52061 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:33,133] INFO Client attempting to renew session 0x15ec353a5740024 at /0:0:0:0:0:0:0:1:52061 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:33,140] INFO Established session 0x15ec353a5740024 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:52061 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:33,209] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52053 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:33,217] INFO Client attempting to renew session 0x15ec353a5740025 at /0:0:0:0:0:0:0:1:52053 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:33,228] INFO Established session 0x15ec353a5740025 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:52053 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:39,000] INFO Expiring session 0x15ec353a574000b, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:39,013] INFO Processed session termination for sessionid: 0x15ec353a574000b (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:20:39,024] INFO Creating new log file: log.58e (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2017-09-28 16:20:42,597] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.11.0-IV2
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs2
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.11.0-IV2
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2017-09-28 16:20:42,856] INFO starting (kafka.server.KafkaServer)
+[2017-09-28 16:20:42,863] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2017-09-28 16:20:42,882] INFO Starting ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2017-09-28 16:20:42,890] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:42,894] INFO Client environment:host.name=LNAR-PC0611K6.corp.capgemini.com (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:42,897] INFO Client environment:java.version=1.8.0_131 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:42,901] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:42,907] INFO Client environment:java.home=C:\Program Files\Java\jdk1.8.0_131\jre (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:42,914] INFO Client environment:java.class.path=C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\aopalliance-repackaged-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\argparse4j-0.7.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\commons-lang3-3.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-api-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-file-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-json-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-runtime-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\connect-transforms-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\guava-20.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-api-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-locator-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\hk2-utils-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-annotations-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-core-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-databind-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-jaxrs-base-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-jaxrs-json-provider-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jackson-module-jaxb-annotations-2.8.5.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javassist-3.21.0-GA.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.annotation-api-1.2.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.inject-1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.inject-2.5.0-b05.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.servlet-api-3.1.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\javax.ws.rs-api-2.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-client-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-common-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-container-servlet-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-container-servlet-core-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-guava-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-media-jaxb-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jersey-server-2.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-continuation-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-http-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-io-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-security-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-server-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-servlet-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-servlets-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jetty-util-9.2.15.v20160210.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\jopt-simple-5.0.3.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-clients-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-log4j-appender-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-streams-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-streams-examples-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka-tools-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-javadoc.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-javadoc.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-scaladoc.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-scaladoc.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-sources.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-sources.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test-sources.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test-sources.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1-test.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\kafka_2.12-0.11.0.1.jar.asc;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\log4j-1.2.17.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\lz4-1.3.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\maven-artifact-3.5.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\metrics-core-2.2.0.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\osgi-resource-locator-1.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\plexus-utils-3.0.24.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\reflections-0.9.11.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\rocksdbjni-5.0.1.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\scala-library-2.12.2.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\scala-parser-combinators_2.12-1.0.4.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\slf4j-api-1.7.25.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\slf4j-log4j12-1.7.25.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\snappy-java-1.1.2.6.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\validation-api-1.1.0.Final.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\zkclient-0.10.jar;C:\workspace\kafka\kafka_2.12-0.11.0.1\libs\zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,109] INFO Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Users\rbliton\AppData\Local\GitHubDesktop\bin;. (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,118] INFO Client environment:java.io.tmpdir=C:\Users\rbliton\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,129] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,131] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,135] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,138] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,142] INFO Client environment:user.name=rbliton (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,149] INFO Client environment:user.home=C:\Users\rbliton (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,155] INFO Client environment:user.dir=C:\workspace\kafka\kafka_2.12-0.11.0.1\bin\windows (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,165] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@4313f5bc (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:43,204] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 16:20:43,206] INFO Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:43,212] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52074 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:20:43,212] INFO Socket connection established to 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:43,226] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:52074 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:43,234] INFO Established session 0x15eca25ddd70000 with negotiated timeout 6000 for client /0:0:0:0:0:0:0:1:52074 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:20:43,236] INFO Session establishment complete on server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, sessionid = 0x15eca25ddd70000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:43,247] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-09-28 16:20:43,517] INFO Cluster ID = eqotAVTFRO2YZJ3Vd5jDQQ (kafka.server.KafkaServer)
+[2017-09-28 16:20:43,596] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-09-28 16:20:43,602] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-09-28 16:20:43,602] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-09-28 16:20:43,946] INFO Loading logs. (kafka.log.LogManager)
+[2017-09-28 16:20:44,122] WARN Found a corrupted index file due to requirement failed: Corrupt index found, index file (C:\tmp\kafka-logs2\cluster-1-0\00000000000000000000.index) has non-zero size but the last offset is 0 which is no larger than the base offset 0.}. deleting C:\tmp\kafka-logs2\cluster-1-0\00000000000000000000.timeindex, C:\tmp\kafka-logs2\cluster-1-0\00000000000000000000.index, and C:\tmp\kafka-logs2\cluster-1-0\00000000000000000000.txnindex and rebuilding index... (kafka.log.Log)
+[2017-09-28 16:20:44,156] ERROR There was an error in one of the threads during logs loading: java.nio.file.FileSystemException: \tmp\kafka-logs2\cluster-1-0\00000000000000000000.timeindex: The process cannot access the file because it is being used by another process.
+ (kafka.log.LogManager)
+[2017-09-28 16:20:44,170] WARN Found a corrupted index file due to requirement failed: Corrupt index found, index file (C:\tmp\kafka-logs2\cluster-2-0\00000000000000000000.index) has non-zero size but the last offset is 0 which is no larger than the base offset 0.}. deleting C:\tmp\kafka-logs2\cluster-2-0\00000000000000000000.timeindex, C:\tmp\kafka-logs2\cluster-2-0\00000000000000000000.index, and C:\tmp\kafka-logs2\cluster-2-0\00000000000000000000.txnindex and rebuilding index... (kafka.log.Log)
+[2017-09-28 16:20:44,187] FATAL [Kafka Server 0], Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+java.nio.file.FileSystemException: \tmp\kafka-logs2\cluster-1-0\00000000000000000000.timeindex: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:269)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:108)
+	at java.nio.file.Files.deleteIfExists(Files.java:1165)
+	at kafka.log.Log.$anonfun$loadSegmentFiles$3(Log.scala:318)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:789)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:32)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:29)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:191)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:788)
+	at kafka.log.Log.loadSegmentFiles(Log.scala:279)
+	at kafka.log.Log.loadSegments(Log.scala:383)
+	at kafka.log.Log.<init>(Log.scala:186)
+	at kafka.log.Log$.apply(Log.scala:1610)
+	at kafka.log.LogManager.$anonfun$loadLogs$12(LogManager.scala:172)
+	at kafka.utils.CoreUtils$$anon$1.run(CoreUtils.scala:57)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 16:20:44,224] WARN Found a corrupted index file due to requirement failed: Corrupt index found, index file (C:\tmp\kafka-logs2\cluster-3-0\00000000000000000000.index) has non-zero size but the last offset is 0 which is no larger than the base offset 0.}. deleting C:\tmp\kafka-logs2\cluster-3-0\00000000000000000000.timeindex, C:\tmp\kafka-logs2\cluster-3-0\00000000000000000000.index, and C:\tmp\kafka-logs2\cluster-3-0\00000000000000000000.txnindex and rebuilding index... (kafka.log.Log)
+[2017-09-28 16:20:44,309] INFO [Kafka Server 0], shutting down (kafka.server.KafkaServer)
+[2017-09-28 16:20:44,338] INFO Terminate ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2017-09-28 16:20:44,343] INFO Processed session termination for sessionid: 0x15eca25ddd70000 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:20:44,344] WARN Found a corrupted index file due to requirement failed: Corrupt index found, index file (C:\tmp\kafka-logs2\cluster1-0\00000000000000000000.index) has non-zero size but the last offset is 0 which is no larger than the base offset 0.}. deleting C:\tmp\kafka-logs2\cluster1-0\00000000000000000000.timeindex, C:\tmp\kafka-logs2\cluster1-0\00000000000000000000.index, and C:\tmp\kafka-logs2\cluster1-0\00000000000000000000.txnindex and rebuilding index... (kafka.log.Log)
+[2017-09-28 16:20:44,363] INFO EventThread shut down for session: 0x15eca25ddd70000 (org.apache.zookeeper.ClientCnxn)
+[2017-09-28 16:20:44,356] INFO Session: 0x15eca25ddd70000 closed (org.apache.zookeeper.ZooKeeper)
+[2017-09-28 16:20:44,357] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15eca25ddd70000, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 16:20:44,403] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52074 which had sessionid 0x15eca25ddd70000 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:20:44,391] WARN Found a corrupted index file due to requirement failed: Corrupt index found, index file (C:\tmp\kafka-logs2\cluster2-0\00000000000000000000.index) has non-zero size but the last offset is 0 which is no larger than the base offset 0.}. deleting C:\tmp\kafka-logs2\cluster2-0\00000000000000000000.timeindex, C:\tmp\kafka-logs2\cluster2-0\00000000000000000000.index, and C:\tmp\kafka-logs2\cluster2-0\00000000000000000000.txnindex and rebuilding index... (kafka.log.Log)
+[2017-09-28 16:20:44,417] INFO [Kafka Server 0], shut down completed (kafka.server.KafkaServer)
+[2017-09-28 16:20:44,436] FATAL Exiting Kafka. (kafka.server.KafkaServerStartable)
+[2017-09-28 16:20:44,453] WARN Found a corrupted index file due to requirement failed: Corrupt index found, index file (C:\tmp\kafka-logs2\cluster3-0\00000000000000000000.index) has non-zero size but the last offset is 0 which is no larger than the base offset 0.}. deleting C:\tmp\kafka-logs2\cluster3-0\00000000000000000000.timeindex, C:\tmp\kafka-logs2\cluster3-0\00000000000000000000.index, and C:\tmp\kafka-logs2\cluster3-0\00000000000000000000.txnindex and rebuilding index... (kafka.log.Log)
+[2017-09-28 16:20:44,493] INFO [Kafka Server 0], shutting down (kafka.server.KafkaServer)
+[2017-09-28 16:21:01,523] INFO Processed session termination for sessionid: 0x15ec353a574002b (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:21:01,540] INFO Accepted socket connection from /127.0.0.1:52077 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:21:01,548] INFO Client attempting to establish new session at /127.0.0.1:52077 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:21:01,554] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ec353a574002b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 16:21:01,560] INFO Established session 0x15eca25ddd70001 with negotiated timeout 30000 for client /127.0.0.1:52077 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:21:01,575] INFO Closed socket connection for client /127.0.0.1:52058 which had sessionid 0x15ec353a574002b (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:21:01,664] INFO Processed session termination for sessionid: 0x15eca25ddd70001 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:21:01,681] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15eca25ddd70001, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 16:21:01,699] INFO Closed socket connection for client /127.0.0.1:52077 which had sessionid 0x15eca25ddd70001 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:21:02,017] WARN Exception causing close of session 0x15ec353a574002a due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:21:02,026] INFO Closed socket connection for client /127.0.0.1:52060 which had sessionid 0x15ec353a574002a (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:21:24,000] INFO Expiring session 0x15ec353a574002a, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:21:24,011] INFO Processed session termination for sessionid: 0x15ec353a574002a (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:22:25,272] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52083 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:22:25,276] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:52083 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:22:25,289] INFO Established session 0x15eca25ddd70002 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:52083 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:22:25,427] INFO Accepted socket connection from /127.0.0.1:52086 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:22:25,431] INFO Client attempting to establish new session at /127.0.0.1:52086 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:22:25,439] INFO Established session 0x15eca25ddd70003 with negotiated timeout 6000 for client /127.0.0.1:52086 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:22:25,558] INFO Got user-level KeeperException when processing sessionid:0x15eca25ddd70003 type:create cxid:0x2 zxid:0x59e txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:22:50,947] INFO Processed session termination for sessionid: 0x15ec353a5740025 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:22:50,963] INFO Accepted socket connection from /127.0.0.1:52089 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:22:50,967] INFO Client attempting to establish new session at /127.0.0.1:52089 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:22:50,971] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ec353a5740025, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 16:22:50,975] INFO Established session 0x15eca25ddd70004 with negotiated timeout 30000 for client /127.0.0.1:52089 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:22:50,987] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52053 which had sessionid 0x15ec353a5740025 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:22:51,036] INFO Processed session termination for sessionid: 0x15eca25ddd70004 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:22:51,049] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x15eca25ddd70004, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-28 16:22:51,067] INFO Closed socket connection for client /127.0.0.1:52089 which had sessionid 0x15eca25ddd70004 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:22:51,393] WARN Exception causing close of session 0x15ec353a5740024 due to java.io.IOException: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:22:51,411] INFO Closed socket connection for client /0:0:0:0:0:0:0:1:52061 which had sessionid 0x15ec353a5740024 (org.apache.zookeeper.server.NIOServerCnxn)
+[2017-09-28 16:23:15,000] INFO Expiring session 0x15ec353a5740024, timeout of 30000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:23:15,007] INFO Processed session termination for sessionid: 0x15ec353a5740024 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2017-09-28 16:23:15,627] INFO Accepted socket connection from /0:0:0:0:0:0:0:1:52093 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:23:15,630] INFO Client attempting to establish new session at /0:0:0:0:0:0:0:1:52093 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:23:15,637] INFO Established session 0x15eca25ddd70005 with negotiated timeout 30000 for client /0:0:0:0:0:0:0:1:52093 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:23:15,757] INFO Accepted socket connection from /127.0.0.1:52096 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2017-09-28 16:23:15,760] INFO Client attempting to establish new session at /127.0.0.1:52096 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:23:15,773] INFO Established session 0x15eca25ddd70006 with negotiated timeout 6000 for client /127.0.0.1:52096 (org.apache.zookeeper.server.ZooKeeperServer)
+[2017-09-28 16:23:15,883] INFO Got user-level KeeperException when processing sessionid:0x15eca25ddd70006 type:create cxid:0x2 zxid:0x5af txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers (org.apache.zookeeper.server.PrepRequestProcessor)

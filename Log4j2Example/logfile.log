@@ -1,0 +1,300 @@
+DEBUG | 2017-09-29 11:08:22 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:08:22 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:08:22 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:08:22 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:08:22 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:08:22 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:13:35 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:13:35 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:13:35 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:13:35 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:13:35 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:13:35 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:16:27 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:16:28 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:16:28 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:16:28 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:16:28 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:16:28 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:18:36 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:18:36 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:18:36 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:18:36 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:18:36 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:18:36 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:19:08 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:19:09 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:19:09 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:19:09 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:19:09 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:19:09 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:19:49 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:19:49 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:19:49 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:19:49 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:19:49 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:19:49 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:23:02 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:23:02 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:23:02 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:23:02 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:23:02 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:23:02 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:27:08 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:27:08 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:27:08 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:27:08 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:27:08 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:27:08 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:30:13 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:30:13 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:30:13 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:30:13 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:30:13 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:30:13 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:31:02 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:31:02 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:31:02 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:31:02 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:31:02 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:31:02 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:33:19 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:33:19 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:33:19 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:33:19 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:33:19 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:33:19 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:35:53 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:35:54 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:35:54 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:35:54 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:35:54 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:35:54 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-09-29 11:36:29 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-09-29 11:36:29 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-09-29 11:36:29 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-09-29 11:36:29 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-09-29 11:36:29 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-09-29 11:36:29 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:22:07 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:22:07 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:22:07 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:22:07 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:22:07 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:22:07 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:28:09 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:28:09 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:28:09 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:28:09 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:28:09 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:28:09 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:29:38 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:29:38 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:29:38 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:29:38 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:29:38 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:29:38 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:30:27 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:30:27 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:30:27 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:30:27 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:30:27 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:30:27 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:31:43 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:31:43 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:31:43 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:31:43 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:31:43 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:31:43 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:35:35 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:35:35 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:35:35 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:35:35 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:35:35 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:35:35 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:35:49 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:35:49 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:35:49 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:35:49 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:35:49 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:35:49 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:36:03 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:36:03 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:36:03 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:36:03 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:36:03 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:36:03 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:40:14 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:40:14 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:40:14 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:40:14 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:40:14 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:40:14 | [main] logging.Log4j2Example (Log4j2Example.java:17) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:55:15 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:55:15 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:55:15 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:55:15 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:55:15 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:55:15 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 10:55:46 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 10:55:46 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 10:55:46 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 10:55:46 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 10:55:46 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 10:55:46 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:04:51 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:04:51 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:04:51 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:04:51 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:04:51 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:04:51 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:12:57 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:12:57 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:12:57 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:12:57 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:12:57 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:12:57 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:16:33 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:16:33 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:16:33 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:16:33 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:16:33 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:16:33 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:17:57 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:17:57 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:17:57 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:17:57 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:17:57 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:17:57 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:20:56 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:20:56 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:20:56 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:20:56 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:20:56 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:20:56 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:22:35 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:22:35 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:22:35 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:22:35 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:22:35 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:22:35 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:25:23 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:25:23 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:25:23 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:25:23 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:25:23 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:25:23 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:31:03 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:31:04 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:31:04 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:31:04 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:31:04 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:31:04 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:38:43 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:38:43 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:38:43 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:38:43 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:38:43 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:38:43 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:39:23 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:39:23 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:39:23 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:39:23 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:39:23 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:39:23 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:41:07 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:41:07 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:41:07 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:41:07 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:41:07 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:41:07 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:41:40 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:41:40 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:41:40 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:41:40 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:41:40 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:41:40 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:43:02 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:43:02 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:43:02 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:43:02 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:43:02 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:43:02 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:44:56 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:44:57 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:44:57 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:44:57 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:44:57 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:44:57 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:47:30 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:47:31 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:47:31 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:47:31 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:47:31 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:47:31 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:51:54 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:51:54 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:51:54 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:51:54 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:51:54 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:51:54 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 11:58:09 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 11:58:09 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 11:58:09 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 11:58:09 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 11:58:09 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 11:58:09 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 12:01:20 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 12:01:20 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 12:01:20 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 12:01:20 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 12:01:20 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 12:01:20 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 12:04:25 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 12:04:25 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 12:04:25 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 12:04:25 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 12:04:25 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 12:04:25 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 12:05:15 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 12:05:15 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 12:05:15 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 12:05:15 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 12:05:15 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 12:05:15 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 12:06:48 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 12:06:48 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 12:06:48 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 12:06:48 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 12:06:48 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 12:06:48 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-02 12:09:25 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-02 12:09:25 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-02 12:09:25 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-02 12:09:25 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-02 12:09:25 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-02 12:09:25 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-04 09:58:20 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-04 09:58:20 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-04 09:58:20 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-04 09:58:20 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-04 09:58:20 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-04 09:58:20 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-06 17:58:14 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-06 17:58:15 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-06 17:58:15 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-06 17:58:15 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-06 17:58:15 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-06 17:58:15 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-06 17:59:19 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-06 17:59:19 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-06 17:59:19 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-06 17:59:19 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-06 17:59:19 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-06 17:59:19 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
+DEBUG | 2017-10-08 11:16:08 | [main] logging.Log4j2Example (Log4j2Example.java:11) - This will be printed on debug
+INFO  | 2017-10-08 11:16:08 | [main] logging.Log4j2Example (Log4j2Example.java:12) - This will be printed on info
+WARN  | 2017-10-08 11:16:08 | [main] logging.Log4j2Example (Log4j2Example.java:13) - This will be printed on warn
+ERROR | 2017-10-08 11:16:09 | [main] logging.Log4j2Example (Log4j2Example.java:14) - This will be printed on error
+FATAL | 2017-10-08 11:16:09 | [main] logging.Log4j2Example (Log4j2Example.java:15) - This will be printed on fatal
+INFO  | 2017-10-08 11:16:09 | [main] logging.Log4j2Example (Log4j2Example.java:16) - Appending string: Hello, World.
